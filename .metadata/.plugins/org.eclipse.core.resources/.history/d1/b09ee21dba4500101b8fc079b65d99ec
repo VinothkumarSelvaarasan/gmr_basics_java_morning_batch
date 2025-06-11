@@ -1,0 +1,21 @@
+package ConditionalStatement;
+
+import java.util.Scanner;
+
+public class IfElseIfElse {
+	public static void main(String[] args) {
+		int percentage;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter your Percentage ");
+		percentage=s.nextInt();
+		if(90<=percentage && 100>=percentage)
+		{
+			System.out.println("S");
+		}
+		else if (80<= percentage && 89>=percentage) {
+			System.out.println("A");
+		}
+		
+	}
+
+}

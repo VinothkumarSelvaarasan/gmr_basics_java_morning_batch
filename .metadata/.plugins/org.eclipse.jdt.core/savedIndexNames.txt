@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\gmrit_morning\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4008226537.index
+3630749886.index
