@@ -1,0 +1,20 @@
+
+public class StringPgm {
+	public static void main(String[] args) {
+		String name="Vinothkumar";
+		String lname="Selvaarasan";
+		String username="vinothkumarselvaarasan";
+		String trimname=" GMRIR ";
+		String Para="Nature is everything around us that makes life possible and beautiful";
+		System.out.println("Character At "+name.charAt(0));
+		System.out.println(name.compareTo(username));
+		System.out.println(name.compareToIgnoreCase(username));
+		String para1[]=Para.split(" ");
+		System.out.println("Spilt Method output -->" +para1[0]);
+		System.out.println("Trim Method"+trimname.trim());
+		System.out.println("concat "+name.concat(lname));
+		System.out.println("Upper Case "+name.toUpperCase());
+		System.out.println("Lower Case "+name.toLowerCase());
+	}
+
+}

@@ -1,0 +1,41 @@
+package Pattern;
+
+public class diamond {
+    public static void main(String[] args) {
+        int n = 5; // Size of the diamond
+
+        // Upper part of the diamond (including the middle row)
+        for (int i = 1; i <= n; i++) {
+            // Print spaces before the stars in each row
+            for (int j = i; j < n; j++) {
+                System.out.print("  ");  // Two spaces for alignment
+            }
+            // Print the first set of stars
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            // Print the second set of stars
+            for (int j = 1; j < i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        // Lower part of the diamond (after the middle row)
+        for (int i = 1; i < n; i++) {
+            // Print spaces before the stars in each row
+            for (int j = 1; j <= i; j++) {
+                System.out.print("  ");  // Two spaces for alignment
+            }
+            // Print the first set of stars
+            for (int j = i; j < n; j++) {
+                System.out.print("* ");
+            }
+            // Print the second set of stars
+            for (int j = i; j < n - 1; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}

@@ -1,0 +1,11 @@
+
+public class StringPgm {
+	public static void main(String[] args) {
+		String name="VinothkumarSelvaarasan";
+		String username="VinothkumarSelvaarasan";
+		System.out.println("Character At "+name.charAt(0));
+		System.out.println(name.compareTo("));"
+				+ "
+	}
+
+}

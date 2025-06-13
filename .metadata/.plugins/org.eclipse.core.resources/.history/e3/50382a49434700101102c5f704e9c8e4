@@ -1,0 +1,12 @@
+package ArrayPgm;
+
+import java.util.Scanner;
+
+public class TwoDimensionalArray {
+	public static void main(String[] args) {
+		String amazonWareHouse[][]=new String[2][3];
+		Scanner s=new Scanner(System.in);
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class PalindromePgm {
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		
+		String reverse="";
+		for (int i=myNation.length()-1;i>=0;i--)
+		{
+			reverse=reverse+myNation.charAt(i);
+		}
+		System.out.println(reverse);
+		if(myNation.equals(reverse))
+		{
+			System.out.println("Given String is Palindrome");
+		}
+		else
+		{
+			System.out.println("Given String is not Palindrome");
+		}
+		
+	}
+
+}
+

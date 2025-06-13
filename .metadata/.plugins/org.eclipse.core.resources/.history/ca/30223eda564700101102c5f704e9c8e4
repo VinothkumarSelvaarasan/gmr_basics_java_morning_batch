@@ -1,0 +1,8 @@
+
+public class StringPgm {
+	public static void main(String[] args) {
+		String name="VinothkumarSelvaarasan";
+		System.out.println("Character At "+name.charAt(0));
+	}
+
+}

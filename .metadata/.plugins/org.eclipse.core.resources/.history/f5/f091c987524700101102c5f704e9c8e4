@@ -1,0 +1,13 @@
+
+public class Testing {
+	public static void main(String[] args) {
+		String name="Vinoth";
+		String name1="Kumar";
+		String name2="vinoth";
+		System.out.println("Char at "+name.charAt(0));
+		System.out.println("Compare to "+name.compareTo(name1));//equal return zero
+		System.out.println("Compare to Equal Ignore case "+ name.compareToIgnoreCase(name2));
+		System.out.println(name.concat(name2));
+	}
+
+}
